@@ -1,0 +1,128 @@
+.number {
+  height: 100px;
+  width: 100px;
+  margin: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 3;
+  float: left;
+}
+.getNumber {
+  height: 80px;
+  width: 120px;
+  margin: 2px;
+  float: left;
+  font-size: xx-large;
+  text-align: center;
+  line-height: 2.5;
+  background-color: white;
+}
+
+.threeNumber {
+  height: 105px;
+  width: 315px;
+  font-size: xx-large;
+
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+.strikeBall {
+  margin: auto;
+  height: 150px;
+  width: 290px;
+  background-color: white;
+}
+.result {
+  height: 50px;
+  width: 140px;
+  background-color: pink;
+  float: left;
+  margin: 2px;
+  font-size: x-large;
+  text-align: center;
+  line-height: 2;
+}
+.whiteSpace {
+  height: 200px;
+  width: 373px;
+  margin: auto;
+}
+.blackboard {
+  height: 85px;
+  width: 120px;
+  margin: 2px;
+  float: left;
+  font-size: xx-large;
+  text-align: center;
+  line-height: 2.5;
+}
+
+#start {
+  height: 50px;
+  width: 160px;
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+}
+#oneMore {
+  height: 50px;
+  width: 160px;
+  margin-top: 25px;
+  margin-right: 20px;
+  float: right;
+}
+
+#consequence {
+  float: left;
+  height: 100px;
+  width: 100%;
+  font-size: xx-large;
+  text-align: center;
+  line-height: 2;
+}
+
+#ninth {
+  background-image: url("baseball9(2).png");
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+#eighth {
+  background-image: url("baseball8.png");
+  background-repeat: no-repeat;
+}
+#seventh {
+  background-image: url("baseball7(2).png");
+  background-repeat: no-repeat;
+}
+#sixth {
+  background-image: url("baseball6(2).png");
+  background-repeat: no-repeat;
+}
+#fifth {
+  background-image: url("baseball5.png");
+  background-repeat: no-repeat;
+}
+#fourth {
+  background-image: url("baseball4.png");
+  background-repeat: no-repeat;
+}
+#third {
+  background-image: url("baseball3.png");
+  background-repeat: no-repeat;
+}
+#second {
+  background-image: url("baseball2.png");
+  background-repeat: no-repeat;
+}
+#first {
+  background-image: url("baseball1.png");
+  background-repeat: no-repeat;
+}
+
+input[type="submit"] {
+  font-size: 1em;
+}
+input[type="button"] {
+  font-size: 1em;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>strike ball game</title>
+    <link rel="stylesheet" href="game.css" type="text/css" />
+  </head>
+  <body>
+    <div class="whiteSpace">
+      <div id="firstValue" class="getNumber">
+        <img class="blackboard" src="blackboard.png" alt="" />
+      </div>
+      <div id="secondValue" class="getNumber">
+        <img class="blackboard" src="blackboard.png" alt="" />
+      </div>
+      <div id="thirdValue" class="getNumber">
+        <img class="blackboard" src="blackboard.png" alt="" />
+      </div>
+
+      <form class="button">
+        <input id="start" type="submit" value="start!" />
+      </form>
+      <form class="retry">
+        <input id="oneMore" type="submit" value="try again!" />
+      </form>
+    </div>
+
+    <div class="threeNumber" id="firstNumber">
+      <form id="one">
+        <input
+          id="first"
+          class="number"
+          type="submit"
+          value="1"
+          onclick="onClick()"
+        />
+      </form>
+      <form id="two">
+        <input
+          id="second"
+          class="number"
+          type="submit"
+          value="2"
+          onclick="onClick()"
+        />
+      </form>
+      <form id="three">
+        <input
+          id="third"
+          class="number"
+          type="submit"
+          value="3"
+          onclick="onClick()"
+        />
+      </form>
+    </div>
+
+    <div class="threeNumber" id="secondNumber">
+      <form id="four">
+        <input
+          id="fourth"
+          class="number"
+          type="submit"
+          value="4"
+          onclick="onClick()"
+        />
+      </form>
+      <form id="five">
+        <input
+          id="fifth"
+          class="number"
+          type="submit"
+          value="5"
+          onclick="onClick()"
+        />
+      </form>
+      <form id="six">
+        <input
+          id="sixth"
+          class="number"
+          type="submit"
+          value="6"
+          onclick="onClick()"
+        />
+      </form>
+    </div>
+
+    <div class="threeNumber" id="thirdNumber">
+      <form id="seven">
+        <input
+          id="seventh"
+          class="number"
+          type="submit"
+          value="7"
+          onclick="onClick()"
+        />
+      </form>
+      <form id="eight">
+        <input
+          id="eighth"
+          class="number"
+          type="submit"
+          value="8"
+          onclick="onClick()"
+        />
+      </form>
+      <form id="nine">
+        <input
+          id="ninth"
+          class="number"
+          type="submit"
+          value="9"
+          onclick="onClick()"
+        />
+      </form>
+    </div>
+
+    <div class="strikeBall">
+      <div class="result" id="strike">strike :0</div>
+      <div class="result" id="ball">ball :0</div>
+    </div>
+
+    <div id="consequence"></div>
+    <script src="game.js"></script>
+  </body>
+</html>
